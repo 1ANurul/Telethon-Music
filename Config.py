@@ -3,8 +3,8 @@ import os
 class Config(object):
     API_ID = int(os.environ.get("APP_ID", "6435225"))
     API_HASH = os.environ.get("API_HASH", "4e984ea35f854762dcde906dce426c2d")
-    BOT_TOKEN = os.environ.get("BOT_TOKEN", "")
-    STRING_SESSION = os.environ.get("STRING_SESSION", "")
+    BOT_TOKEN = os.environ.get("BOT_TOKEN", "5668322254:AAGhX5fXa8t6FGVdugV-yqgNwBQk5x0Z2ew ")
+    STRING_SESSION = os.environ.get("STRING_SESSION", "1BVtsOKgBuzRXGRih_nOhpYgkj2dBjNupE_gwa6E4LWpPybyXhyVvhl7BMZCb1O8ZoBMxHngfQeR0H7a88rSwT-mJo1LTNFGBcpntIE3BZTteviKiznpxZqHXK-HFzAkQb_00UIodRUe9KAe4NdGs7uKtDAZzIC_iS5_1trUyzy5MMrjMGkqB9E3cIIkOh9Wf-6vsXf2lnEGtGaSUlRPLpepqF5e7XmDO0CM-HC5OkKzl-b6aJZDAD3DQtZddyXtfxkdFicpxfe-vBTgK9g_mzD5-kpi7Grkz65ERQ5d30nRFbCpWCesb7mmQizxLGvAYCZcVLiELlmT5WYwO0r9ANd_NNC-YavY= ")
     MANAGEMENT_MODE = os.environ.get("MANAGEMENT_MODE", True)
     HEROKU_MODE = os.environ.get("HEROKU_MODE", None)
     BOT_USERNAME = os.environ.get("BOT_USERNAME", "")
